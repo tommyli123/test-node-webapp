@@ -1,0 +1,16 @@
+{
+  "name": "docker_web_app",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "First Last <first.last@example.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test-mysql1": "node test-mysql1.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "mysql": "^2.16.0",
+    "promise-mysql": "^3.3.1"
+  }
+}
